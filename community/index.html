@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>products</title>
+</head>
+<body class="w-[100vw] h-screen bg-gray-200 overflow-x-hidden">
+
+    <nav class="bg-white lg:p-0 relative">
+        <ul class="nav px-4 lg:w-[75%] py-[2rem] mx-auto flex justify-between items-center h-[45px] text-md">
+            <li class="nav-item logo lg:mr-5">
+                <img class="h-[3em] lg:h-[2em]" src="../icons/homeIcons/logo.png" alt="">
+            </li>
+            <div class="mobileNav transition-all ease-in-out duration-300  absolute top-16 z-30 h-[0px] overflow-y-hidden flex flex-col justify-around shadow left-0 bg-white lg:shadow-none lg:static lg:h-[auto] lg:flex-row  items-center w-[100%] lg:flex">
+                <li class="nav-item mr-4"><a href="../index.html">home</a></li>
+                <li class="nav-item mr-4"><a href="../products/index.html">products </a></li>
+                <li class="nav-item mr-4 community">community</li>
+                <li class="nav-item mr-4">documentation</li>
+                <div class="hidden lg:flex ml-auto flex items-center">
+                    <li class="nav-item mr-2 font-normal text-md lg:text-sm">funding goal:$500</li>
+                    <li class="nav-item mr-4">
+                        <img src="../icons/homeIcons/progress-bar.png" alt="">
+                    </li>
+                    <li class="nav-item mr-4">
+                        <img class="h-[1.5em]" src="../icons/homeIcons/twitter.svg" alt="">
+                    </li>
+                    <li class="nav-item mr-4">
+                        <img class="h-[1.5em]" src="../icons/homeIcons/github.svg" alt="">
+                    </li>
+                </div>
+            </div>
+            <div class="lg:hidden hamburger">
+                <div class="line h-[3px] mb-1 w-[30px] bg-[black]"></div>
+                <div class="line h-[3px] mb-1 w-[30px] bg-[black]"></div>
+                <div class="line h-[3px] mb-1 w-[30px] bg-[black]"></div>
+            </div>
+        </ul>
+    </nav>
+
+    <main class="h-[90%] lg:h-[auto] overflow-x-hidden bg-gray-200">
+        <img class="hidden lg:block absolute z-10 top-0 left-1 h-[410px]" src="../icons/homeIcons/halfCircleLeft.svg" alt="">
+        <section class="h-[17vh] ">
+            <div class="flex items-center w-[90%] lg:w-[75%] h-[inherit] mx-auto">
+                <div class="ml-10"> 
+                    <h2 class="IfcOpenShell text-3xl lg:ml-2 lg:text-4xl">Community</h2>
+                    <p class="IfcOpenShell">Built by you, free for the world</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#2e3436] relative">
+            <img class="hidden lg:block absolute top-[-1.7rem] right-[14rem] h-[75px]" src="../icons/productIcons/code.png" alt="">
+            <img class="hidden lg:block absolute top-[5rem] right-[14rem] h-[60px]" src="../icons/communityIcons/spiral.png" alt="">
+
+           <div class="w-[100%] lg:w-[75%] py-8 pb-14 mx-auto text-[#eeeeecff]">
+                <h2 class="text-2xl lg:text-4xl pb-3 text-center IfcOpenShell">I want to write code</h2>
+                <div class="flex justify-center items-center flex-col lg:flex-row lg:m-3">
+                    <div class="flex flex-col items-center mb-4 lg:mb-16 lg:mb-0  lg:mr-8 w-[80%] lg:w-[33%]">
+                        <h3 class="IfcOpenShell text-lg my-2">IfcOpenShell C++</h3>
+                        <hr class="w-[30px] mb-2 h-[3px] bg-[white] py-[2]" />
+                        <p class="text-sm mb-3 text-center">IfcOpenShell is LGPL v3.0+ licensed software written, tested, taught, documented, and by volunteers just like you.</p>
+                    </div>
+
+                    <div class="flex flex-wrap items-center justify-center w-[80%] lg:w-[40%]">
+                        <button class="flex items-center justify-center rounded-lg h-[30px] w-[150px] p-4 m-2 text-white text-sm  bg-[#40b74cff] "><img class="mr-1 h-[10px]" src="../icons/homeIcons/download.svg" alt="">Report a bug</button>      
+                        <button class="flex items-center justify-center rounded-lg h-[30px] w-[150px] p-4 m-2 text-white text-sm  bg-[#40b74cff] "><img class="mr-1 h-[10px]" src="../icons/homeIcons/download.svg" alt="">Sponsor us</button>      
+                        <button class="flex items-center justify-center rounded-lg h-[30px] w-[150px] p-4 m-2 text-white text-sm  bg-[#40b74cff] "><img class="mr-1 h-[10px]" src="../icons/homeIcons/download.svg" alt="">Ask a question</button>      
+                        <button class="flex items-center justify-center rounded-lg h-[30px] w-[150px] p-4 m-2 text-white text-sm  bg-[#40b74cff] "><img class="mr-1 h-[10px]" src="../icons/homeIcons/download.svg" alt="">write code</button>      
+                        <button class="flex items-center justify-center rounded-lg h-[30px] w-[150px] p-4 m-2 text-white text-sm  bg-[#40b74cff] "><img class="mr-1 h-[10px]" src="../icons/homeIcons/download.svg" alt="">Chat live</button>      
+                        <button class="flex items-center justify-center rounded-lg h-[30px] w-[150px] p-4 m-2 text-white text-sm  bg-[#40b74cff] "><img class="mr-1 h-[10px]" src="../icons/homeIcons/download.svg" alt="">Read our blog</button>      
+                        <button class="flex items-center justify-center rounded-lg h-[30px] w-[150px] p-4 m-2 text-white text-sm  bg-[#40b74cff] "><img class="mr-1 h-[10px]" src="../icons/homeIcons/download.svg" alt="">Feed</button>      
+
+                    </div>
+
+                </div>
+           </div> 
+        </section>
+
+        <section>
+            <div class="w-[100%] lg:h-[400px] py-5 mx-auto relative">
+                <img class="hidden lg:block absolute top-[-4.5rem] left-1/2 transform -translate-x-1/2 h-[50%]" src="../icons/productIcons/bgfaded.png" alt="">
+                <h2 class="text-2xl lg:text-3xl mt-2 mb-12 text-center IfcOpenShell">Latest commits</h2>
+                <h2 class="text-2xl lg:text-3xl mt-2 lg:ml-[12rem] mb-12 text-center IfcOpenShell">Popular articles</h2>
+                <h2 class="text-2xl lg:text-3xl mt-2 mb-12 text-center IfcOpenShell">Tweet tweet</h2>
+                <div class="w-[90%] lg:w-[40%] text-center mx-auto text-sm">
+                    <p>Convert from IFC to OBJ, DAE, GLB/GLTF, STP, IGS, XML, SVG, and H5. Includes options for multithreaded support, element filtering, geometry validation, coordinates, and units.</p>
+                </div>
+           </div> 
+        </section>
+
+
+    </main>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        let menu = document.querySelector('.mobileNav')
+        let hamburgerIcon = document.querySelector('.hamburger')
+        hamburgerIcon.addEventListener("click", showNavigation)
+
+        function showNavigation() {
+            menu.classList.toggle("h-[30vh]")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;0,700;1,600&display=swap');
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.products {
+    border-bottom: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #079444ff, #b8db30ff);
+}
+
+.IfcOpenShell {
+    background: -webkit-linear-gradient(left,#7cbf33ff, #049344ff, #009245ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bgfaded {
+    /* background-image: url('../icons/productIcons/bgfaded.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center -200px;
+}

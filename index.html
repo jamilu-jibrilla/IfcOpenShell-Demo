@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>home</title>
+</head>
+
+<body class="w-[100vw] h-screen bg-gray-200 ">
+
+    <nav class="bg-white lg:p-0 relative">
+        <ul class="nav px-4 lg:w-[75%] py-[2rem] mx-auto flex justify-between items-center h-[45px] text-md">
+            <li class="nav-item logo lg:mr-5">
+                <img class="h-[3em] lg:h-[2em]" src="./icons/homeIcons/logo.png" alt="">
+            </li>
+            <div class="mobileNav transition-all ease-in-out duration-300  absolute top-16 z-30 h-[0px] overflow-y-hidden flex flex-col justify-around shadow left-0 bg-white lg:shadow-none lg:static lg:h-[auto] lg:flex-row  items-center w-[100%] lg:flex">
+                <li class="nav-item mr-4 home">home</li>
+                <li class="nav-item mr-4"><a href="./products/index.html">products </a></li>
+                <li class="nav-item mr-4"><a href="./community/index.html">community</a></li>
+                <li class="nav-item mr-4">documentation</li>
+                <div class="hidden lg:flex ml-auto flex items-center">
+                    <li class="nav-item mr-2 font-normal text-md lg:text-sm">funding goal:$500</li>
+                    <li class="nav-item mr-4">
+                        <img src="./icons/homeIcons/progress-bar.png" alt="">
+                    </li>
+                    <li class="nav-item mr-4">
+                        <img class="h-[1.5em]" src="./icons/homeIcons/twitter.svg" alt="">
+                    </li>
+                    <li class="nav-item mr-4">
+                        <img class="h-[1.5em]" src="./icons/homeIcons/github.svg" alt="">
+                    </li>
+                </div>
+            </div>
+            <div class="lg:hidden hamburger">
+                <div class="line h-[3px] mb-1 w-[30px] bg-[black]"></div>
+                <div class="line h-[3px] mb-1 w-[30px] bg-[black]"></div>
+                <div class="line h-[3px] mb-1 w-[30px] bg-[black]"></div>
+            </div>
+        </ul>
+    </nav>
+
+    <main class="h-[90%] overflow-x-hidden">
+
+        <section
+            class="sect-1 mt-8 lg:mt-0 lg:pt-9  flex flex-col-reverse lg:flex-row bg-transparent lg:w-[75%] mx-auto h-[75vh] lg:h-[480px] relative">
+
+            <div class="lg:w-[60%] flex py-4 lg:py-0 w-[100%]">
+                <div
+                    class="h-[90%] my-auto w-[15px] bg-white rounded-lg bg-gradient-to-b from-[#f5ee30ff] to-[#3bb549ff]">
+                </div>
+                <div class="px-7">
+                    <h1 class="text-5xl font-medium IfcOpenShell mb-2">IfcOpenShell</h1>
+                    <h2 class="text-xl leading-6 font-medium IfcOpenShell mb-4">The open source Ifc toolkit <br
+                            class="hidden lg:block" /> and geometry engine</h2>
+                    <h3 class="sect-1-text text-md lg:text-md lg:text-sm ">IfcOpenShell helps you develop digital
+                        platforms for the built
+                        environment <br class="hidden lg:block" /> Read, write, and modify Building Information Models
+                        using IFC <br class="hidden lg:block" /> a diverse digital language from design to construction
+                        and beyond.</h3>
+                    <button
+                        class="flex shadow-lg mt-6 items-center justify-center rounded-md h-[40px] text-white w-[170px] bg-[#40b74cff] "><img
+                            class="mr-1 h-[10px]" src="./icons/homeIcons/download.svg" alt=""> Download v0.7.0</button>
+                </div>
+            </div>
+
+            <div
+                class="sect-1-image bg-contain  h-[100%] bg-header mx-auto w-[100%] lg:bg-cover lg:absolute top-0 right-0 lg:mt-[85px] lg:mr-[5px] lg:h-[80%] lg:w-[60%]">
+            </div>
+        </section>
+
+        <section class="w-[85%] lg:w-[75%] mx-auto mt-8">
+
+            <div class="flex flex-wrap lg:flex-nowrap ">
+                <div
+                    class="card md:w-[300px] h-[250px] md:mr-4 bg-gradient-to-r from-[#0E9743] to-[#51AF39] relative mb-5 md:mb-3 rounded-md overflow-hidden">
+                    <h2 class="card-header my-3 font-medium px-5">A library you can rely on</h2>
+                    <hr class="w-[50px] mb-3 h-[2px] bg-[white] py-[2]" />
+                    <p class="px-5 text-md md:text-md md:text-sm">Developed by a commmunity of hundred of developers and
+                        trusted to deliver
+                        many AEC technology that powers our industry</p>
+                    <div class="pt-0 pb-0 absolute bottom-[-11px] left-0 right-0">
+                        <img class="w-[200px] h-[80px] mx-auto" src="./icons/homeIcons/card1.png" alt="">
+                    </div>
+                </div>
+                <div
+                    class="card md:w-[300px] h-[250px] relative mb-5 md:mb-3 lg:mr-4 bg-gradient-to-r from-[#67B736] to-[#A7CF2D] rounded-md overflow-hidden">
+                    <h2 class="card-header my-3 font-medium px-5">Any technology stack</h2>
+                    <hr class="w-[50px] mb-3 h-[2px] bg-[white] py-[2]" />
+                    <p class="px-5 text-md md:text-md md:text-sm">Build with Windows, Mac, or Linux, in C++ or Python.
+                        Deploy headless server
+                        tools, or author IFC natively with a rich graphical interface.</p>
+                    <div class="pt-0 pb-0 absolute bottom-[-11px] left-0 right-0">
+                        <img class="w-[200px] h-[80px] mx-auto" src="./icons/homeIcons/card2.png" alt="">
+                    </div>
+                </div>
+                <div
+                    class="card md:w-[300px] h-[250px] md:mr-4 bg-gradient-to-r from-[#B5D42C] to-[#DDE226] relative mb-5 md:mb-2 rounded-md overflow-hidden ">
+                    <h2 class="card-header my-3 font-medium px-5">All schemas and formats</h2>
+                    <hr class="w-[50px] mb-3 h-[2px] bg-[white] py-[2]" />
+                    <p class="px-5 text-md md:text-md md:text-sm">Support IFC2X3, IFC4, IFC4.3, or load your own at
+                        run-time. Read and write
+                        IFC-SPF, IFCJSON, IFCXML, and IFCHDF5.</p>
+                    <div class="pt-0 pb-0 absolute bottom-[-11px] left-0 right-0">
+                        <img class="w-[200px] h-[80px] mx-auto" src="./icons/homeIcons/card3.png" alt="">
+                    </div>
+                </div>
+                <div
+                    class="card md:w-[300px] h-[250px] bg-gradient-to-r from-[#E7E624] to-[#FAED21] relative mb-5 md:mb-2 rounded-md overflow-hidden">
+                    <h2 class="card-header my-3 font-medium px-5">Native IFC authoring API</h2>
+                    <hr class="w-[50px] mb-3 h-[2px] bg-[white] py-[2]" />
+                    <p class="px-5 text-md md:text-md md:text-sm">High level API for hundreds of tasks. Perform complex
+                        authoring like copying
+                        objects, cost calculation, or 4D simulation with one line of code.</p>
+                    <div class="pt-0 pb-0 absolute bottom-[-11px] left-0 right-0">
+                        <img class="w-[200px] h-[80px] mx-auto" src="./icons/homeIcons/card4.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap lg:flex-nowrap md:mt-2 pb-16 sect-2-2">
+                <div
+                    class="card md:w-[300px] h-[250px] md:mr-4 bg-gradient-to-r from-[#0E9743] to-[#51AF39] relative mb-5 md:mb-3 rounded-md overflow-hidden">
+                    <h2 class="card-header my-3 font-medium px-5">Robust geometry</h2>
+                    <hr class="w-[50px] mb-3 h-[2px] bg-[white] py-[2]" />
+                    <p class="px-5 text-md md:text-md md:text-sm">Convert parametric geometry into explicit geometry for
+                        any CAD system from
+                        booleans to complex sweeps.</p>
+                    <div class="pt-0 pb-0 absolute bottom-[-10px] left-0 right-0">
+                        <img class="w-[200px] h-[80px] mx-auto" src="./icons/homeIcons/card5.png" alt="">
+                    </div>
+                </div>
+                <div
+                    class="card md:w-[300px] h-[250px] relative mb-5 md:mb-3 md:mr-4 bg-gradient-to-r from-[#67B736] to-[#A7CF2D] rounded-md overflow-hidden">
+                    <h2 class="card-header my-3 font-medium px-5">2D drawings</h2>
+                    <hr class="w-[50px] mb-3 h-[2px] bg-[white] py-[2]" />
+                    <p class="px-5 text-md md:text-md md:text-sm">
+                        Generate and annotate 2D drawings from 3D geometry with ease. Preserve drawing semantics and
+                        link model data to and from drawing symbols.
+                    </p>
+                    <div class="pt-0 pb-0 absolute bottom-[-11px] left-[-10px] right-0">
+                        <img class="w-[200px] h-[80px] mx-auto" src="./icons/homeIcons/card6.png" alt="">
+                    </div>
+                </div>
+                <div
+                    class="card md:w-[300px] h-[250px] md:mr-4 bg-gradient-to-r from-[#B5D42C] to-[#DDE226] relative mb-5 md:mb-3 rounded-md overflow-hidden ">
+                    <h2 class="card-header my-3 font-medium px-5">Ecosystem of tools</h2>
+                    <hr class="w-[50px] mb-3 h-[2px] bg-[white] py-[2]" />
+                    <p class="px-5 text-md md:text-md md:text-sm">
+                        Clash detection, model comparison, and conversion to over 10 other formats. Integrate with
+                        technologies like IDS, BCF, and bSDD, and more.
+                    </p>
+                    <div class="pt-0 pb-0 absolute bottom-[-11px] left-0 right-0">
+                        <img class="w-[200px] h-[80px] mx-auto" src="./icons/homeIcons/card7.png" alt="">
+                    </div>
+                </div>
+                <div
+                    class="card md:w-[300px] h-[250px]  bg-gradient-to-r from-[#E7E624] to-[#FAED21] relative mb-5 md:mb-3 rounded-md overflow-hidden">
+                    <h2 class="card-header my-3 font-medium px-5">Easy to use</h2>
+                    <hr class="w-[50px] mb-3 h-[2px] bg-[white] py-[2]" />
+                    <p class="px-5 text-md md:text-md md:text-sm">
+                        Extensive documentation, user guides, academic courses, and a vibrant user community to help you
+                        begin your journey.
+                    </p>
+                    <div class="pt-0 pb-0 absolute bottom-[-11px] left-0 right-0">
+                        <img class="w-[200px] h-[80px] mx-auto" src="./icons/homeIcons/card8.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="sect-3 mx-auto w-[85%] lg:w-[75%] mt-[-35px] relative">
+            <img class="hidden lg:block absolute top-[-10rem] z-[-1] left-1/2 transform -translate-x-1/2 h-[100%]" src="./icons/productIcons/bgfaded.png" alt="">
+
+            <h2 class="text-[2rem] IfcOpenShell text-center lg:text-start lg:ml-12 mb-3">Let's get started</h2>
+
+            <div class="flex flex-col  justify-center lg:flex-row relative">
+                <img class="absolute hidden lg:block right-[9rem] h-[140px] top-[-8rem]"
+                    src="./icons/homeIcons/spring.svg" alt="">
+                <div class="mx-auto md:w-[60%] lg:w-[50%] flex items-center">
+                    <img class="h-[60px] lg:h-[70px]" src="./icons/homeIcons/halfCircleLeft.svg" alt="">
+                    <div class="flex items-center justify-center">
+                        <img class="h-[15px] " src="./icons/homeIcons/leftArr.png" alt="">
+                        <img class="h-[120px]" src="./icons/homeIcons/importCard.png" alt="">
+                        <img class="h-[15px]" src="./icons/homeIcons/rightArr.png" alt="">
+                    </div>
+                    <img class="h-[60px] lg:h-[70px]" src="./icons/homeIcons/halfCircleRight.svg" alt="">
+                </div>
+
+                <div class="flex text-center mx-auto lg:text-start lg:w-[50%]">
+                    <div class="lg:ml-auto lg:mr-7">
+                        <h2 class="IfcOpenShell font-medium mt-7  lg:mt-0 mb-3  text-2xl">Choose your hammer</h2>
+                        <div class="flex w-[100%] justify-center lg:justify-start">
+                            <button
+                                class="lg:py-2 mr-1 py-1 px-1 lg:px-5  rounded text-md lg:text-md lg:text-sm border border-[#f1592aff]">i
+                                know python</button>
+                            <button
+                                class="lg:py-2 mr-1 py-1 px-1 lg:px-5 rounded text-md lg:text-md lg:text-sm border border-[#40b74cff]">i
+                                know c++</button>
+                            <button
+                                class="lg:py-2 mr-1 py-1 px-1 lg:px-5 rounded text-md lg:text-md lg:text-sm border border-[#40b74cff]">i
+                                am cli
+                                wizard</button>
+                        </div>
+                        <p class="text-md lg:text-md lg:text-sm my-2">Let's load a file, edit a wall name, and write it
+                            out again with the
+                            change</p>
+                        <p class="text-md lg:text-md lg:text-sm">Learn more in our <a href="./documentation/index.html"
+                                class="IfcOpenShell">documentation</a></p>
+                    </div>
+                    <div
+                        class="hidden lg:block h-[150%] mt-[-40px] w-[15px] bg-white rounded-lg bg-gradient-to-b from-[#f1592aff] to-[#f5e732ff]">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="sect-4 w-[90%] lg:w-[75%] mt-10 mx-auto">
+            <h2 class="text-[2rem] IfcOpenShell text-center lg:text-start lg:ml-12 mb-3">Made possible by you</h2>
+            <div class="image-container">
+                <div class="flex justify-center flex-wrap m-5">
+                    <img class="m-3 w-[100px] lg:w-[150px] lg:h-[20px]" src="./icons/homeIcons/logo1.svg" alt="">
+                    <img class="m-3 w-[100px] lg:w-[150px] lg:h-[20px]" src="./icons/homeIcons/logo2.svg" alt="">
+                    <img class="m-3 w-[100px] lg:w-[150px] lg:h-[20px]" src="./icons/homeIcons/logo3.svg" alt="">
+                    <img class="m-3 w-[100px] lg:w-[150px] lg:h-[20px]" src="./icons/homeIcons/logo4.svg" alt="">
+                </div>
+                <div class="flex justify-center flex-wrap">
+                    <img class="m-4 w-[70px] lg:h-[20px]" src="./icons/homeIcons/logo6.svg" alt="">
+                    <img class="m-4 w-[70px] lg:h-[30px]" src="./icons/homeIcons/logo7.svg" alt="">
+                    <img class="m-4 w-[70px] lg:h-[20px]" src="./icons/homeIcons/logo8.svg" alt="">
+                </div>
+                <div class="text-center w-[100%] mx-auto mt-10">
+                    <p class="mb-6">We've been building IFC technology for over a decade <br class="hidden lg:block" /> and want to share
+                        everything we know for a better built environment.</p>
+                    <p>Free for all of us, forever.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="mt-5 text-md px-1 py-2 lg:px-0 lg:text-md lg:text-sm border border-t-[gray] overflow-x-hidden">
+            <div class="lg:w-[75%] flex justify-center lg:justify-between mx-auto h-[70px] items-center">
+                <p class="text-center lg:text-start lg:w-40%"><span class="IfcOpenShell">IfcOpenShell</span> is a free
+                    software project by amazing
+                    volunteers. You can be one too! </p>
+                <div class="flex items-center hidden lg:flex w-60%">
+                    <img class="h-[50px] mr-2" src="./icons/homeIcons/logo.png" alt="">
+                    <div>
+                        <h4 class="IfcOpenShell">IfcOpenShell</h4>
+                        <p>The open source IFC toolkit </br> and geometry engine</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        let menu = document.querySelector('.mobileNav')
+        let hamburgerIcon = document.querySelector('.hamburger')
+        hamburgerIcon.addEventListener("click", showNavigation)
+
+        function showNavigation() {
+            menu.classList.toggle("h-[30vh]")
+        }
+    </script>
+</body>
+
+</html>
