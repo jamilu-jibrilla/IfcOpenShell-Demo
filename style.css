@@ -8,18 +8,14 @@ body {
         border-image-slice: 1;
         border-image-source: linear-gradient(to right, #079444ff, #b8db30ff);
 }
+li {
+        list-style: none;
+}
 
 .IfcOpenShell {
         background: -webkit-linear-gradient(left,#7cbf33ff, #049344ff, #009245ff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-}
-
-.bg-header {
-        background-image: url(./icons/homeIcons/bg-header.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        z-index: -1;
 }
 
 .sect-2-2 {
@@ -28,6 +24,7 @@ body {
         background-position:center bottom;
         background-repeat: no-repeat;
 }
+
 
 @media screen and (max-width:900px) {
         .sect-2-2 {

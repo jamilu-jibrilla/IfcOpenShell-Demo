@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>products</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="w-[100vw] h-screen bg-gray-200">
 
@@ -15,20 +16,20 @@
                 <img class="h-[3em] lg:h-[2em]" src="../icons/homeIcons/logo.png" alt="">
             </li>
             <div class="mobileNav transition-all ease-in-out duration-300  absolute top-16 z-30 h-[0px] overflow-y-hidden flex flex-col justify-around shadow left-0 bg-white lg:shadow-none lg:static lg:h-[auto] lg:flex-row  items-center w-[100%] lg:flex">
-                <li class="nav-item mr-4"><a href="../index.html">home</a></li>
-                <li class="nav-item mr-4 products">products</li>
-                <li class="nav-item mr-4"><a href="../community/index.html">community</a></li>
-                <li class="nav-item mr-4">documentation</li>
+                <li class="nav-item mr-5"><a href="../index.html">home</a></li>
+                <li class="nav-item mr-5 products">products</li>
+                <li class="nav-item mr-5"><a href="../community/index.html">community</a></li>
+                <li class="nav-item ">documentation</li>
                 <div class="hidden lg:flex ml-auto flex items-center">
                     <li class="nav-item mr-2 font-normal text-md lg:text-sm">funding goal:$500</li>
-                    <li class="nav-item mr-4">
-                        <img src="./icons/homeIcons/progress-bar.png" alt="">
+                    <li class="nav-item mr-3">
+                        <img src="../icons/homeIcons/progress-bar.png" alt="">
                     </li>
-                    <li class="nav-item mr-4">
-                        <img class="h-[1.5em]" src="../icons/homeIcons/twitter.svg" alt="">
+                    <li class="nav-item mr-2">
+                        <img class="h-[1.7rem]" src="../icons/homeIcons/twitter.svg" alt="">
                     </li>
-                    <li class="nav-item mr-4">
-                        <img class="h-[1.5em]" src="../icons/homeIcons/github.svg" alt="">
+                    <li class="nav-item">
+                        <img class="h-[1.7rem]" src="../icons/homeIcons/github.svg" alt="">
                     </li>
                 </div>
             </div>
@@ -202,7 +203,6 @@
     </main>
 
 
-    <script src="https://cdn.tailwindcss.com"></script>
     <script>
         let menu = document.querySelector('.mobileNav')
         let hamburgerIcon = document.querySelector('.hamburger')
