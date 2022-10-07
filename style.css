@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&display=swap');
 body {
-        font-family: 'Nunito Sans', sans-serif;
+        font-family: 'Nunito', sans-serif;
 }
 
 .home {
@@ -18,17 +18,4 @@ li {
         -webkit-text-fill-color: transparent;
 }
 
-.sect-2-2 {
-        /* background-image: url(./icons/homeIcons/bgCurve.svg); */
-        background-size: contain;
-        background-position:center bottom;
-        background-repeat: no-repeat;
-}
-
-
-@media screen and (max-width:900px) {
-        .sect-2-2 {
-                background-image: none;
-        }
-}
 
